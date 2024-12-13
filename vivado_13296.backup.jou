@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Nov 21 19:49:07 2024
+# Process ID: 13296
+# Current directory: C:/Users/V/Downloads/Car_Maze_Game/Car_Maze_Game
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4440 C:\Users\V\Downloads\Car_Maze_Game\Car_Maze_Game\project_2.xpr
+# Log file: C:/Users/V/Downloads/Car_Maze_Game/Car_Maze_Game/vivado.log
+# Journal file: C:/Users/V/Downloads/Car_Maze_Game/Car_Maze_Game\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/V/Downloads/Car_Maze_Game/Car_Maze_Game/project_2.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
